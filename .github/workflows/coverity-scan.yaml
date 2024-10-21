@@ -10,7 +10,7 @@ jobs:
   coverity:
     runs-on: ubuntu-22.04
     environment: normal
-    if: github.repository == 'canonical/snapd'
+    if: github.repository == 'alexmurray/snapd'
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
